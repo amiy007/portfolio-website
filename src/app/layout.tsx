@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Amit Yadav - Full Stack Developer & Tech Leader",
-  description: "Full Stack Developer with expertise in React, Node.js, and cloud technologies. Building scalable web applications and leading technical teams.",
-  keywords: ["Full Stack Developer", "React", "Node.js", "JavaScript", "TypeScript", "Web Development", "Software Engineer"],
+  description: "Full Stack Developer with expertise in React, Spring Boot, and cloud technologies. Building scalable web applications and leading technical teams.",
+  keywords: ["Full Stack Developer", "React", "Spring Boot", "JavaScript", "TypeScript", "Web Development", "Software Engineer"],
   authors: [{ name: "Amit Yadav" }],
   creator: "Amit Yadav",
   publisher: "Amit Yadav",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://amityadav.dev",
     title: "Amit Yadav - Full Stack Developer & Tech Leader",
-    description: "Full Stack Developer with expertise in React, Node.js, and cloud technologies.",
+    description: "Full Stack Developer with expertise in React, Spring Boot, and cloud technologies.",
     siteName: "Amit Yadav Portfolio",
     images: [
       {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Amit Yadav - Full Stack Developer & Tech Leader",
-    description: "Full Stack Developer with expertise in React, Node.js, and cloud technologies.",
+    description: "Full Stack Developer with expertise in React, Spring Boot, and cloud technologies.",
     images: ["/og-image.jpg"],
   },
   robots: {

@@ -13,46 +13,36 @@ import {
 
 const experience = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'TechCorp Solutions',
-    location: 'Remote',
-    period: 'Jan 2022 - Present',
-    description: 'Leading development of enterprise-level web applications and mentoring junior developers.',
+    title: 'Software Engineer',
+    company: 'Times Internet',
+    location: 'Noida, Uttar Pradesh, India',
+    period: 'April 2022 – Present (3 yrs 3 mos)',
+    description: 'Full-time. Awarded Rising Star (2022) and Superstar (2024).',
     achievements: [
       'Led a team of 5 developers in building a scalable e-commerce platform',
       'Improved application performance by 40% through optimization techniques',
       'Implemented CI/CD pipelines reducing deployment time by 60%',
       'Mentored 3 junior developers and conducted code reviews'
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'AWS', 'Docker', 'PostgreSQL']
+    technologies: [
+      'Java', 'Python', 'React', 'Next.js', 'AWS', 'Docker', 'PostgreSQL', 'Spring Boot', 'Flask', 'FastAPI',"Elastic Search",'Logstash' ,'Kibana','New Relic','Kafka','Redis','Kubernetes','AI/ML' , 'GenAI'
+    ]
   },
   {
-    title: 'Full Stack Developer',
-    company: 'InnovateTech',
-    location: 'Bangalore, India',
-    period: 'Mar 2020 - Dec 2021',
-    description: 'Built and maintained multiple client projects using modern web technologies.',
+    title: 'Software Engineer',
+    company: 'LIBSYS Ltd.',
+    location: 'India (On-site)',
+    period: 'July 2020 – April 2022 (1 yr 10 mos)',
+    description: 'Full-time. Worked on library automation projects including LsDiscovery, WebOPAC, LsRemote, College Management Project. Focus: Engineering and Software Design.',
     achievements: [
       'Developed 10+ client projects with 100% client satisfaction',
       'Reduced bug reports by 50% through improved testing practices',
       'Implemented responsive design principles across all projects',
       'Collaborated with UX/UI designers to improve user experience'
     ],
-    technologies: ['React', 'Express.js', 'MongoDB', 'Redux', 'Jest', 'Git']
-  },
-  {
-    title: 'Frontend Developer',
-    company: 'WebSolutions Inc',
-    location: 'Mumbai, India',
-    period: 'Jun 2018 - Feb 2020',
-    description: 'Developed responsive user interfaces and improved user experience.',
-    achievements: [
-      'Built 15+ responsive websites and web applications',
-      'Optimized website loading speed by 35%',
-      'Implemented accessibility features for better user experience',
-      'Worked closely with backend developers for API integration'
-    ],
-    technologies: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Sass', 'Webpack']
+    technologies: [
+      'Java', 'Python', 'React','MongoDB', 'Git', 'Spring Boot', 'Flask', 'FastAPI'
+    ]
   }
 ]
 
@@ -134,6 +124,9 @@ const skills = {
   ],
   'Interpersonal & General': [
     'Problem Solving', 'People Management', 'Law in General'
+  ],
+  'Backend Development': [
+    'Spring Boot', 'Java', 'Flask', 'FastAPI'
   ]
 }
 

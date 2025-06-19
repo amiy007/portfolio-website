@@ -26,7 +26,7 @@ export default function Contact() {
             <div>Email: <a href="mailto:uk08109@gmail.com.com" className="text-blue-600">amit@example.com</a></div>
             <div>LinkedIn: <a href="https://www.linkedin.com/in/amit-yadav-a70675133/" className="text-blue-600">linkedin.com/in/amit-yadav-a70675133</a></div>
             <div>GitHub: <a href="https://github.com/amiy007" className="text-blue-600">github.com/amitkumar21</a></div>
-            <div>Twitter: <a href="https://twitter.com/amitkumar21" className="text-blue-600">@amitkumar21</a></div>
+            <div>Twitter: <a href="https://x.com/amityad29027788" className="text-blue-600">@amitkumar21</a></div>
           </div>
         </div>
       </section>

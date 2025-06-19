@@ -95,7 +95,7 @@ export default function HeroSection() {
               <div className="w-80 h-80 lg:w-96 lg:h-96 relative rounded-full overflow-hidden bg-gradient-to-br from-blue-400 to-purple-600 p-1">
                 <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-800 p-2">
                   <Image
-                    src="/profile-image.jpg"
+                    src="/images/profile_image.png"
                     alt="Amit Yadav"
                     width={400}
                     height={400}
@@ -119,7 +119,7 @@ export default function HeroSection() {
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}
                 className="absolute -bottom-4 -left-4 w-16 h-16 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center"
               >
-                <span className="text-purple-600 dark:text-purple-400 font-bold">Node.js</span>
+                <span className="text-purple-600 dark:text-purple-400 font-bold">Spring Boot</span>
               </motion.div>
             </div>
           </motion.div>

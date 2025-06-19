@@ -13,7 +13,7 @@ import {
 
 const skills = [
   { name: 'React', level: 90, category: 'Frontend' },
-  { name: 'Node.js', level: 85, category: 'Backend' },
+  { name: 'Spring Boot', level: 85, category: 'Backend' },
   { name: 'TypeScript', level: 88, category: 'Language' },
   { name: 'Next.js', level: 92, category: 'Framework' },
   { name: 'Python', level: 80, category: 'Language' },
@@ -43,6 +43,16 @@ const values = [
     title: 'User-Centric',
     description: 'Always putting the end-user first, ensuring every feature adds real value to their experience.'
   }
+]
+
+const examsCracked = [
+  'GATE-2024 (CS)',
+  'GATE-2024 (DA)',
+  'JEE-mains 2016',
+  'KVS PGT - CS',
+  'UPP SI-2021 & UPP confidential SI (Group B)',
+  'SEBI grade A (coding round)',
+  'IBPS SO IT officer'
 ]
 
 export default function About() {
@@ -92,7 +102,7 @@ export default function About() {
                   reinforced my belief in the power of technology to solve real-world problems.
                 </p>
                 <p>
-                  Today, I focus on full-stack development with a particular interest in React, Node.js, 
+                  Today, I focus on full-stack development with a particular interest in React, Spring Boot, 
                   and cloud technologies. I believe in writing clean, maintainable code and creating 
                   user experiences that people love to use.
                 </p>
@@ -224,6 +234,17 @@ export default function About() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-gray-50 dark:bg-gray-800">
+        <div className="max-w-7xl mx-auto container-padding">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Government Exams Cracked</h2>
+          <ul className="list-disc pl-6 text-gray-700 dark:text-gray-300">
+            {examsCracked.map((exam, idx) => (
+              <li key={idx}>{exam}</li>
+            ))}
+          </ul>
         </div>
       </section>
     </main>
