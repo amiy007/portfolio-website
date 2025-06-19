@@ -318,21 +318,23 @@ export default function Resume() {
                       </div>
                     </div>
                     
-                    <div>
-                      <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                        Skills:
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {edu.skills.map((skill, idx) => (
-                          <span
-                            key={idx}
-                            className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm rounded-full"
-                          >
-                            {skill}
-                          </span>
-                        ))}
+                    {edu.skills && (
+                      <div>
+                        <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
+                          Skills:
+                        </h4>
+                        <div className="flex flex-wrap gap-2">
+                          {edu.skills.map((skill, idx) => (
+                            <span
+                              key={idx}
+                              className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 text-sm rounded-full"
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </motion.div>
                 ))}
               </div>

@@ -1,4 +1,4 @@
-import Navigation from '../components/navigation'
+import Navigation from '@/components/navigation'
 
 export default function Contact() {
   return (
@@ -23,9 +23,9 @@ export default function Contact() {
             <button type="submit" className="w-full bg-blue-600 text-white py-2 rounded font-semibold hover:bg-blue-700 transition">Send Message</button>
           </form>
           <div className="mt-10 text-center space-y-2">
-            <div>Email: <a href="mailto:amit@example.com" className="text-blue-600">amit@example.com</a></div>
+            <div>Email: <a href="mailto:uk08109@gmail.com.com" className="text-blue-600">amit@example.com</a></div>
             <div>LinkedIn: <a href="https://www.linkedin.com/in/amit-yadav-a70675133/" className="text-blue-600">linkedin.com/in/amit-yadav-a70675133</a></div>
-            <div>GitHub: <a href="https://github.com/amitkumar21" className="text-blue-600">github.com/amitkumar21</a></div>
+            <div>GitHub: <a href="https://github.com/amiy007" className="text-blue-600">github.com/amitkumar21</a></div>
             <div>Twitter: <a href="https://twitter.com/amitkumar21" className="text-blue-600">@amitkumar21</a></div>
           </div>
         </div>
