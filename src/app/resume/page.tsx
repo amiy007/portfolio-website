@@ -117,33 +117,212 @@ const education = [
   }
 ]
 
+const skills = {
+  'Programming & Technologies': [
+    'Java (Java Profiling)', 'Python', 'Database Management System (DBMS)', 'Artificial Intelligence (AI)',
+    'Amazon Web Services (AWS)', 'Apache Kafka', 'Generative Adversarial Networks (GANs)',
+    'Blockchain for Business', 'ChatGPT (Custom GPTs)'
+  ],
+  'Data Science & Big Data': [
+    'Data Science', 'Foundations of Data Science', 'AI in Fintech', 'AI Agents', 'Generative AI', 'Big Data'
+  ],
+  'Software Engineering': [
+    'Software Development Engineer at Times Internet', 'Java Profiling', 'Python Programming', 'Web Development', 'Internet of Things'
+  ],
+  'Business & Management': [
+    'Strategic Planning', 'Operations Research', 'Entrepreneurship', 'Public-private Partnerships', 'e-Governance', 'Administrative Theory', 'Public Policy'
+  ],
+  'Interpersonal & General': [
+    'Problem Solving', 'People Management', 'Law in General'
+  ]
+}
+
 const certifications = [
   {
-    name: 'AWS Certified Developer Associate',
-    issuer: 'Amazon Web Services',
-    date: '2023',
-    credentialId: 'AWS-123456'
+    name: 'Java Profiling',
+    issuer: 'LinkedIn',
+    date: 'Jun 2025',
+    skills: 'Java',
+    url: '',
+    media: ''
   },
   {
-    name: 'MongoDB Certified Developer',
-    issuer: 'MongoDB University',
-    date: '2022',
-    credentialId: 'MDB-789012'
+    name: 'Creating AI-Generated Videos with Sora',
+    issuer: 'LinkedIn',
+    date: 'May 2025',
+    skills: 'Video Production, Generative AI Tools',
+    url: '',
+    media: ''
   },
   {
-    name: 'React Developer Certification',
-    issuer: 'Meta',
-    date: '2021',
-    credentialId: 'META-345678'
+    name: 'Agentic AI for Developers',
+    issuer: 'LinkedIn',
+    date: 'Apr 2025',
+    skills: 'AI Agents, Generative AI',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Canva: Designing Engaging, Accessible Presentations',
+    issuer: 'LinkedIn',
+    date: 'Apr 2025',
+    skills: 'Presentation Design, Canva',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Google Cloud Technical Series',
+    issuer: 'Google',
+    date: 'Apr 2025',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Intro to GANs',
+    issuer: 'LinkedIn',
+    date: 'Apr 2025',
+    skills: 'GANs, Generative AI',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'OpenAI ChatGPT: Creating Custom GPTs',
+    issuer: 'LinkedIn',
+    date: 'Apr 2025',
+    skills: 'Custom GPTs, ChatGPT',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Understanding Gen Z Perspective as Manager',
+    issuer: 'LinkedIn',
+    date: 'Apr 2025',
+    skills: 'People Management',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Agentic AI Fundamentals',
+    issuer: 'LinkedIn',
+    date: 'Mar 2025',
+    skills: 'AI Agents',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'SEO Foundations',
+    issuer: 'LinkedIn',
+    date: 'Mar 2025',
+    skills: 'SEO',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Data Science and AI',
+    issuer: 'IISDT',
+    date: 'Nov 2024',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'GATE (DA) 2024',
+    issuer: 'IISc',
+    date: 'Mar 2024',
+    skills: 'Data Science, AI, Algorithms',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'GATE (CS) 2024',
+    issuer: 'IISc',
+    date: 'Mar 2024',
+    skills: 'Comp. Networks, OS, Unix, DS, Algo',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'AWS Cloud Practitioner',
+    issuer: 'AWS',
+    date: 'Nov 2023',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Basics of Money',
+    issuer: 'INDmoney',
+    date: 'Sep 2023',
+    skills: 'Money Management',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'US Stocks Essentials for Indians',
+    issuer: 'INDmoney',
+    date: 'Aug 2023',
+    skills: 'Equity Trading',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Triplebyte Certified',
+    issuer: 'Triplebyte',
+    date: 'Feb 2022',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Foundations of Data Science',
+    issuer: 'PadhAI - One Fourth Labs',
+    date: 'Nov 2020',
+    skills: 'ML, Data Science, Python',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Big Data Analytics using Python & Hadoop',
+    issuer: '-',
+    date: '-',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Intro to Programming Using Python',
+    issuer: 'Microsoft Technology Associate',
+    date: 'Apr 2019',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Internet of Things',
+    issuer: 'Internshala',
+    date: 'Jan 2019',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Programming with Python',
+    issuer: 'Internshala',
+    date: 'Jun 2018',
+    skills: '-',
+    url: '',
+    media: ''
+  },
+  {
+    name: 'Web Development',
+    issuer: 'Internshala',
+    date: 'Dec 2017',
+    skills: '-',
+    url: '',
+    media: ''
   }
 ]
-
-const skills = {
-  'Frontend Development': ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Redux'],
-  'Backend Development': ['Node.js', 'Express.js', 'Python', 'Django', 'REST APIs', 'GraphQL'],
-  'Database & Cloud': ['PostgreSQL', 'MongoDB', 'AWS', 'Docker', 'Kubernetes', 'Redis'],
-  'Tools & Others': ['Git', 'GitHub', 'Jest', 'Cypress', 'Webpack', 'Vite', 'Figma']
-}
 
 export default function Resume() {
   return (
@@ -394,7 +573,7 @@ export default function Resume() {
                       {cert.issuer}
                     </p>
                     <p className="text-gray-500 dark:text-gray-500 text-sm">
-                      {cert.date} • {cert.credentialId}
+                      {cert.date} • {cert.skills}
                     </p>
                   </div>
                 ))}
