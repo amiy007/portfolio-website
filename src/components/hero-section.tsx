@@ -34,7 +34,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300"
               >
-                Full Stack Developer & Tech Leader
+                Software Developer & Tech Leader
               </motion.h2>
             </div>
 

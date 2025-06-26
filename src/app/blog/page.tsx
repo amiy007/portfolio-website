@@ -35,7 +35,7 @@ export default function Blog() {
       <section className="pt-20 pb-16 max-w-3xl mx-auto px-4">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-4xl font-bold">Blog</h1>
-          <Link href="/blog/new" className="bg-blue-600 text-white px-4 py-2 rounded font-semibold hover:bg-blue-700 transition">File a Blog</Link>
+          {/* <Link href="/blog/new" className="bg-blue-600 text-white px-4 py-2 rounded font-semibold hover:bg-blue-700 transition">File a Blog</Link>  */}
         </div>
         <div className="space-y-8">
           {posts.map(post => (

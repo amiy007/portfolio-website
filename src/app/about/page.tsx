@@ -12,14 +12,14 @@ import {
 } from '@heroicons/react/24/outline'
 
 const skills = [
-  { name: 'React', level: 90, category: 'Frontend' },
+  { name: 'JAVA', level: 80, category: 'Language' },
   { name: 'Spring Boot', level: 85, category: 'Backend' },
-  { name: 'TypeScript', level: 88, category: 'Language' },
-  { name: 'Next.js', level: 92, category: 'Framework' },
+  { name: 'Kubernetes', level: 70, category: 'DevOps' },
+  { name: 'Next.js', level: 72, category: 'Framework' },
   { name: 'Python', level: 80, category: 'Language' },
   { name: 'AWS', level: 75, category: 'Cloud' },
   { name: 'Docker', level: 82, category: 'DevOps' },
-  { name: 'PostgreSQL', level: 78, category: 'Database' },
+  { name: 'Mongo', level: 78, category: 'Database' }, 
 ]
 
 const values = [

@@ -19,10 +19,12 @@ const experience = [
     period: 'April 2022 – Present (3 yrs 3 mos)',
     description: 'Full-time. Awarded Rising Star (2022) and Superstar (2024).',
     achievements: [
-      'Led a team of 5 developers in building a scalable e-commerce platform',
-      'Improved application performance by 40% through optimization techniques',
-      'Implemented CI/CD pipelines reducing deployment time by 60%',
-      'Mentored 3 junior developers and conducted code reviews'
+      'Designed and developed robust backend services for the Gadgets vertical using Java and Spring Boot, ensuring high scalability and reliability.',
+      'Built and maintained the media-service, enabling efficient image storage and real-time media operations such as cropping, resizing, and format conversion.',
+      'Implemented support for modern image formats (WebP, AVIF), reducing storage requirements by 50-70% while maintaining image quality.',
+      'Worked on the central JCMS and cloudservices projects, powering dynamic news pages and data delivery for multiple Times Internet properties.',
+      'Developed and optimized Elasticsearch-based search for AutNow, significantly improving search speed and relevance.',
+      'Collaborated with the AI/ML team to develop GenAI-powered products, including news filing software for editors, integrating advanced AI features into editorial workflows.'
     ],
     technologies: [
       'Java', 'Python', 'React', 'Next.js', 'AWS', 'Docker', 'PostgreSQL', 'Spring Boot', 'Flask', 'FastAPI',"Elastic Search",'Logstash' ,'Kibana','New Relic','Kafka','Redis','Kubernetes','AI/ML' , 'GenAI'
