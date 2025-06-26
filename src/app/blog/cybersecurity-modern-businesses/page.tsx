@@ -10,7 +10,7 @@ export default function CybersecurityModernBusinessesBlog() {
         <div className="text-gray-500 text-sm mb-6">2024-04-22</div>
         <article className="prose dark:prose-invert max-w-none">
           <p>
-            In today's digital landscape, cybersecurity is a top priority for businesses of all sizes. Here's how to protect your organization:
+            In today&apos;s digital landscape, cybersecurity is a top priority for businesses of all sizes. Here&apos;s how to protect your organization:
           </p>
           <h2>Key Practices</h2>
           <ul>

@@ -10,7 +10,7 @@ export default function ModernPortfolioBlog() {
         <div className="text-gray-500 text-sm mb-6">2024-06-17</div>
         <article className="prose dark:prose-invert max-w-none">
           <p>
-            Building a modern portfolio website is essential for developers and designers to showcase their work. In this guide, we'll walk through creating a beautiful, scalable portfolio using <b>Next.js</b> and <b>Tailwind CSS</b>.
+            Building a modern portfolio website is essential for developers and designers to showcase their work. In this guide, we&apos;ll walk through creating a beautiful, scalable portfolio using <b>Next.js</b> and <b>Tailwind CSS</b>.
           </p>
           <h2>Why Next.js & Tailwind?</h2>
           <ul>
